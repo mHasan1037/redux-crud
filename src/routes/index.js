@@ -13,7 +13,7 @@ const Index = () => {
         <main>
             <Routes>
                 <Route path='/' element={<BooksView />} />
-                <Route path='/redux-crud/' element={<BooksView />} />
+                <Route path='/redux-crud' element={<BooksView />} />
                 <Route path='/add-book' element={<AddBooks />} />
                 <Route path='/edit-book' element={<EditBooks />} />
                 <Route path="*" element={<Error />} />
